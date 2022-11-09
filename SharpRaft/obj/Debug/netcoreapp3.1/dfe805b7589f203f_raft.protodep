@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\proto/Raft.cs \
+obj\Debug\netcoreapp3.1\proto/RaftGrpc.cs: proto/raft.proto

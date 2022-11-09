@@ -1,0 +1,28 @@
+syntax = "proto3";
+option csharp_namespace = "raftService";
+
+message RequestVoArgs {
+    
+    //候选人的任期号
+    int32 term=4;
+
+    int32 candidateId=1;
+
+    
+
+    int32 lastLogIndex=2;
+
+    int32 lastLogTerm=3;
+
+}
+
+message RequestVoRes {
+    int32 term=4;
+
+    bool voteGranted=1;
+}
+
+service raftService {
+
+    rpc RequestVo (RequestVoArgs) returns (RequestVoRes);
+}
