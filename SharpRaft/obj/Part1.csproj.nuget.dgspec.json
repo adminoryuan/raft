@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\daima\\SharpRaft\\part1\\Part1.csproj": {}
+    "D:\\daima\\SharpRaft\\SharpRaft\\Part1.csproj": {}
   },
   "projects": {
-    "D:\\daima\\SharpRaft\\part1\\Part1.csproj": {
+    "D:\\daima\\SharpRaft\\SharpRaft\\Part1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\daima\\SharpRaft\\part1\\Part1.csproj",
+        "projectUniqueName": "D:\\daima\\SharpRaft\\SharpRaft\\Part1.csproj",
         "projectName": "Part1",
-        "projectPath": "D:\\daima\\SharpRaft\\part1\\Part1.csproj",
+        "projectPath": "D:\\daima\\SharpRaft\\SharpRaft\\Part1.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\daima\\SharpRaft\\part1\\obj\\",
+        "outputPath": "D:\\daima\\SharpRaft\\SharpRaft\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,10 +47,6 @@
             "Grpc.Core": {
               "target": "Package",
               "version": "[2.46.5, )"
-            },
-            "Grpc.Core.Api": {
-              "target": "Package",
-              "version": "[2.49.0, )"
             },
             "Grpc.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

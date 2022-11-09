@@ -58,7 +58,7 @@
           }
         }
       },
-      "Grpc.Core.Api/2.49.0": {
+      "Grpc.Core.Api/2.46.5": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -157,19 +157,18 @@
         "runtimes/win-x86/native/grpc_csharp_ext.x86.dll"
       ]
     },
-    "Grpc.Core.Api/2.49.0": {
-      "sha512": "6OTcSQ8iML+xzmELhH4anUZlNM3dHDKPFBsMLSdiT80LJaaZKxwZml/K9ZdfLIjSR/EzdMZzzU2Avbedz4N7BA==",
+    "Grpc.Core.Api/2.46.5": {
+      "sha512": "Y8ZWjt0axK3ApE3OrERivXiIg6aboIq7AXbWAmdZWtHXfj3PkZeihSOaHN+acGkRy5CeSMXgBCj/+kWjyPFiaw==",
       "type": "package",
-      "path": "grpc.core.api/2.49.0",
+      "path": "grpc.core.api/2.46.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "README.md",
-        "grpc.core.api.2.49.0.nupkg.sha512",
+        "grpc.core.api.2.46.5.nupkg.sha512",
         "grpc.core.api.nuspec",
-        "lib/net462/Grpc.Core.Api.dll",
-        "lib/net462/Grpc.Core.Api.pdb",
-        "lib/net462/Grpc.Core.Api.xml",
+        "lib/net45/Grpc.Core.Api.dll",
+        "lib/net45/Grpc.Core.Api.pdb",
+        "lib/net45/Grpc.Core.Api.xml",
         "lib/netstandard1.5/Grpc.Core.Api.dll",
         "lib/netstandard1.5/Grpc.Core.Api.pdb",
         "lib/netstandard1.5/Grpc.Core.Api.xml",
@@ -282,7 +281,6 @@
     ".NETCoreApp,Version=v3.1": [
       "Google.Protobuf >= 3.18.0",
       "Grpc.Core >= 2.46.5",
-      "Grpc.Core.Api >= 2.49.0",
       "Grpc.Tools >= 2.50.0"
     ]
   },
@@ -292,11 +290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\daima\\SharpRaft\\part1\\Part1.csproj",
+      "projectUniqueName": "D:\\daima\\SharpRaft\\SharpRaft\\Part1.csproj",
       "projectName": "Part1",
-      "projectPath": "D:\\daima\\SharpRaft\\part1\\Part1.csproj",
+      "projectPath": "D:\\daima\\SharpRaft\\SharpRaft\\Part1.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\daima\\SharpRaft\\part1\\obj\\",
+      "outputPath": "D:\\daima\\SharpRaft\\SharpRaft\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -332,10 +330,6 @@
           "Grpc.Core": {
             "target": "Package",
             "version": "[2.46.5, )"
-          },
-          "Grpc.Core.Api": {
-            "target": "Package",
-            "version": "[2.49.0, )"
           },
           "Grpc.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

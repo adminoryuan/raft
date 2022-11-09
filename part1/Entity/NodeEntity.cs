@@ -19,8 +19,12 @@ namespace Part1.Entity
         int commitIndex { get; set; }
 
         int lastApplied { get; set; }
-            
+
+
+        int leaderId { get; set; }
 
             
+
+
     }
 }

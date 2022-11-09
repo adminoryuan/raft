@@ -1,5 +1,4 @@
-﻿using Grpc.Net.Client;
-using raftService;
+﻿using raftService;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,20 +7,16 @@ using System.Threading.Tasks;
 namespace Part1
 {
     internal class Server
-    { 
-        public  void Start(string host)
+    {
+        public void Start(string host)
         {
-          
-             Task.Run(() =>
-            {
-                Server server = new Server();
+
+            Task.Run(() =>
+           {
 
 
-                server.Start(host);
+           }).Start();
 
-
-            }).Start();
-           
 
         }
     }

@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Part1
+namespace Part1.raft
 {
-    internal class raftRpc: raftService.raftService.raftServiceBase
+    internal class raftRpc : raftService.raftService.raftServiceBase
     {
         public override Task<RequestVoRes> RequestVo(RequestVoArgs request, ServerCallContext context)
         {
