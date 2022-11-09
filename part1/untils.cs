@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Part1
 {
-    internal static class untils
+
+    internal static class Untils
     {
+
     }
 }

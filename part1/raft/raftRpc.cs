@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Part1.raft
 {
     internal class raftRpc : raftService.raftService.raftServiceBase
-    {
+    {       
         public override Task<RequestVoRes> RequestVo(RequestVoArgs request, ServerCallContext context)
         {
             return base.RequestVo(request, context);
